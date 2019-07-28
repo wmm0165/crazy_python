@@ -9,3 +9,6 @@ print(msg)
 # 请输入你的值：2
 # <class 'str'>
 # 2
+message = int(input("请输入你的值"))  # 可以使用int进行字符类型转换
+print(type(message))
+
