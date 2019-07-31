@@ -7,8 +7,7 @@ b_list = [] # 定义保存除以3余1的元素
 c_list = [] # 定义保存除以3余2的元素
 # 只要src_list还有元素，继续执行循环体
 while len(src_list) > 0:
-    # 弹出src_list最后一个元素
-    ele = src_list.pop()
+    ele = src_list.pop() # 弹出src_list最后一个元素
     # 如果ele % 3不等于0
     if ele % 3 == 0 :
         a_list.append(ele)  # 添加元素
