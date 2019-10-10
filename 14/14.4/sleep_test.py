@@ -3,6 +3,6 @@
 # @Author : wangmengmeng
 import time
 
-for i in range(10):
+for i in range(4):
     print("当前时间：%s" % time.ctime())
-    time.sleep(1)
+    time.sleep(1) # 调用sleep()函数让线程暂停1s

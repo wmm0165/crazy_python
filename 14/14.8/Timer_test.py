@@ -4,7 +4,10 @@
 # Timer用于控制指定函数在特定时间内执行一次
 from threading import Timer
 
+
 def hello():
     print("hello world!")
-t = Timer(10.0,hello)
+
+
+t = Timer(10.0, hello)  # 使用Timer控制10s后执行hello函数
 t.start()
