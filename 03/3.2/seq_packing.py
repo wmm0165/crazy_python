@@ -2,7 +2,7 @@
 # @Time : 2019/7/29 17:55
 # @Author : wangmengmeng
 # 序列封包：将10，20，30封装成元组后赋值给vals
-vals = 10, 20, 30
+vals = 10, 20, 30  # 把多个值赋给一个变量时，python程序会自动将多个值封装成元组
 print(vals)
 print(type(vals))
 print(vals[1])
@@ -15,7 +15,7 @@ a_list = ['fkit', 'crazyit']
 a_str, b_str = a_list
 print(a_str, b_str)
 # 序列解包时只分解出部分变量，剩下的依然使用列表变量保存
-first,second,*rest = range(10)
+first, second, *rest = range(10)  # * 表示该变量为一个列表
 print(first)
 print(second)
 print(rest)
