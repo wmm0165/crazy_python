@@ -1,6 +1,15 @@
 # -*- coding: utf-8 -*-
 # @Time : 2019/7/30 20:14
 # @Author : wangmengmeng
+
+"""
+字典的基本用法：
+通过key访问value
+通过key添加key-value对
+通过key删除key-value对
+通过key修改key-value对
+通过key判断指定key-value是否存在
+"""
 scores = {'语文': 89}
 # 通过key访问value,字典的key就相当于它的索引，只不过这些索引不一定是整数类型，可以是任意不可变类型
 print(scores['语文'])
